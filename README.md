@@ -35,27 +35,38 @@ The SQL Injection Scanner is a tool developed to identify SQL injection vulnerab
 ## Installation
 
 1. Clone the repository:
+```bash
 git clone https://github.com/r1sh1raj01/SQL-Injection-Scanner.git
-
+```
 
 2. Create a virtual environment (optional but recommended):
+```bash
 python3 -m venv myenv
 source myenv/bin/activate
+```
 
 
 3. Install dependencies:
+```bash
 pip install requests beautifulsoup4
-
+```
 
 ## Usage
 
 1. Run the scanner:
+```bash
 python3 scanner-gui.py
+```
 
 
 2. Enter the target URL in the GUI.
+
+
 3. Click the "Scan" button to initiate the scan.
+
+
 4. View the results in the GUI or save them to a file.
+
 
 ## Example Use Cases
 
